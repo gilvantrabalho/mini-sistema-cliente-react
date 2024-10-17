@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { useParams, useNavigate } from 'react-router-dom';
 import { getClient, edit } from "../../../api/ClientApi";
 import Container from "../../../components/container/Container";
@@ -7,7 +7,6 @@ import { errorMessage, success } from "../../../services/Alert";
 
 const EditClient = () => {
     const { id } = useParams();
-    const [client, setClient] = useState(null);  // Inicia como null para esperar os dados
     const navigate = useNavigate();
     const formClientRef = useRef(null);
 

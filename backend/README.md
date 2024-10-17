@@ -74,7 +74,7 @@ php artisan migrate
 Execute o seguinte comando para criar as tabelas no banco de dados:
 
 ```bash
-php artisan seed
+php artisan db:seed
 ```
 
 ### 8. Iniciar o Servidor de Desenvolvimento
