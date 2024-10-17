@@ -1,0 +1,1 @@
+Cada projeto tem um README.md com o processo e instalação.
